@@ -1,31 +1,39 @@
 <h1 align="center"> Habit Tracker  </h1>
 
 
-
-<p align="center">
-  <a href="#-tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
- 
-</p>
-
-
 <br>
 
+
+## ✨ Objective 
+---Help Users Stay Accountable: Keep track of daily habits to encourage responsibility.
+
+---Promote Consistency: Assist users in building regular routines.
+
+---Offer Insights: Provide easy-to-read data about habits for better understanding.
+
+---Encourage Goal Setting: Allow users to set and track their habit goals.
+
+---Boost Motivation: Use reminders to help users stay on track.
+
+---Ensure User-Friendliness: Create a simple and enjoyable interface for easy tracking.
 
 
 ## 💻 Project
 
-Habits is a habit tracking app designed to help users monitor and improve their daily routines."
+Habit Tracker is a web application designed to help users monitor and improve their daily routines."
 
 
-## 🚀 Tecnologies 
+## 🚀 Technologies 
 
 
 
 ---Developed a habit tracking web application using HTML, CSS, and JavaScript.
+
 ---Utilized Git and GitHub for version control and collaboration.
----Designed user-friendly interfaces and prototypes using Figma.
----Implemented features for adding and saving habits with localStorage, enhancing user experience with   real-time updates.
+
+---Implemented features for adding and saving habits with localStorage, enhancing user experience with  
+    real-time updates.
+
 ---Created a responsive layout with dynamic date and time display.
 
 
