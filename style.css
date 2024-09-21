@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(221 247 212);
+  color: rgb(239, 244, 239);
+  height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  top : 0px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 44px;
+  position: fixed;
+  width: 100%;
+  background-color: #18aa4b;
+}
+
+button {
+  padding: 20px 24px;
+  border-radius: 8px;
+  border: 2px solid #111011;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+form {
+  display: flex;
+  padding: 182px 48px 48px;
+  width: fit-content;
+}
+
+.habits {
+  margin-top: 60px;
+  top: 10px;
+  left: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.habit {
+  left: 20px;
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.days {
+  display: flex;
+  margin-left: 32px;
+  gap: 48px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div {
+  margin-bottom: 8px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  line-height: 125%;
+  text-align: center;
+  color: #a1a1aa;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  left:0px;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #27272a;
+  border-radius: 8px;
+  background: #18181b;
+}
+
+input:checked {
+  background: #8b5cf6;
+  border: 2px solid #a78bfa;
+}
+
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
+}
+
+.datetime-container {
+  position: fixed; /* To keep it in the corner */
+  top: 38px; /* Adjust vertical position */
+  left: 580px; /* Position in the left corner */
+  text-align: center;
+  background-color: forestgreen;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
